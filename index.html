@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Flash Downloader — Video & Audio Downloader</title>
+  <meta name="description" content="Download videos you own or have permission to save. MP4 and MP3-ready interface for YouTube, Facebook and TikTok links.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark">FD</span><span>Flash Downloader</span></a>
+  <nav>
+    <a class="active" href="index.html">Home</a>
+    <a href="how-it-works.html">How It Works</a>
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+  <a class="nav-btn" href="#downloader">Start Download</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">⚡ FAST • SIMPLE • CLEAN</div>
+    <h1>Your links.<br><span>Your media.</span><br>One simple place.</h1>
+    <p>Paste a supported video link and choose the format you need. Designed for content you own or have permission to download.</p>
+    <div class="platforms"><span>▶ YouTube</span><span>f Facebook</span><span>♪ TikTok</span></div>
+  </div>
+  <div class="hero-card" id="downloader">
+    <div class="card-glow"></div>
+    <h2>Download media</h2>
+    <p class="muted">Paste your video URL below</p>
+    <div class="input-wrap">
+      <input id="urlInput" type="url" placeholder="https://..." autocomplete="off">
+      <button id="clearBtn" class="clear" type="button">×</button>
+    </div>
+    <div class="format-row">
+      <button class="format active" data-format="mp4">🎬 MP4 Video</button>
+      <button class="format" data-format="mp3">🎵 MP3 Audio</button>
+    </div>
+    <button id="downloadBtn" class="primary">Download <span>→</span></button>
+    <div id="status" class="status"></div>
+    <small>Only download content you are legally allowed to save.</small>
+  </div>
+</section>
+
+<section class="stats">
+  <div><strong>01</strong><span>Paste link</span></div>
+  <div><strong>02</strong><span>Choose format</span></div>
+  <div><strong>03</strong><span>Download</span></div>
+  <div><strong>∞</strong><span>Simple workflow</span></div>
+</section>
+
+<section class="features">
+  <div class="section-heading"><div class="eyebrow">WHY STREAMFORGE</div><h2>Built to feel <span>effortless.</span></h2></div>
+  <div class="feature-grid">
+    <article><div class="icon">⚡</div><h3>Quick workflow</h3><p>No complicated menus. Paste, choose a format, and continue.</p></article>
+    <article><div class="icon">🎧</div><h3>MP3-ready</h3><p>A dedicated audio option keeps the experience clean and focused.</p></article>
+    <article><div class="icon">📱</div><h3>Mobile first</h3><p>Responsive pages designed for phones, tablets and desktop screens.</p></article>
+  </div>
+</section>
+</main>
+
+<footer><div><b>Flash Downloader</b><span>© 2026 Flash Downloader</span></div><div><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="how-it-works.html">How it works</a></div></footer>
+<script src="app.js"></script>
+</body>
+</html>

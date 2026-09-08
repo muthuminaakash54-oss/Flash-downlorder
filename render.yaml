@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: streamforge
+    runtime: node
+    buildCommand: pip install -U yt-dlp && npm install
+    startCommand: node server.js
+    envVars:
+      - key: PUBLIC_URL
+        sync: false
